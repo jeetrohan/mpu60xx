@@ -2,7 +2,7 @@
 dependencies:
   ## Required IDF version
   idf:
-    version: ">=4.1.0"
+    version: ">=5.4.0"
   # # Put list of dependencies here
   mpu60xx:
     version: "*"
