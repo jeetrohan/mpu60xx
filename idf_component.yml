@@ -8,7 +8,7 @@ maintainers:
 dependencies:
   ## Required IDF version
   idf:
-    version: ">=4.1.0"
+    version: ">=5.4.0"
   # # Put list of dependencies here
   #
   # # For components maintained by Espressif:
@@ -25,3 +25,5 @@ dependencies:
   #   # `public` flag doesn't have an effect dependencies of the `main` component.
   #   # All dependencies of `main` are public by default.
   #   public: true
+- name: Upload components
+  uses: espressif/upload-components-ci-action@v2.0.0
